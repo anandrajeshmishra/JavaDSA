@@ -1,1 +1,5 @@
-Hello world my name is AnandKumar Mishra
+class DAY1{
+    public static void main(String args[]){
+        System.out.println("Hello World");
+    }
+}
