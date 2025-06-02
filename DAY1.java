@@ -43,13 +43,25 @@
 //         System.out.println(name);
 //     }
 // }
+// import java.util.*;
+// class DAY1{
+//     public static void main(String[] args){
+//         System.out.println("Enter your name here");
+//         Scanner sc = new Scanner(System.in);
+//         String name = sc.nextLine();
+//         System.out.println("Your name is :");
+//         System.out.println(name);
+//     }
+// }
 import java.util.*;
 class DAY1{
     public static void main(String[] args){
-        System.out.println("Enter your name here");
+        System.out.println("Enter two numbers");
         Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();
-        System.out.println("Your name is :");
-        System.out.println(name);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum = a+b;
+        System.out.print(sum);
+
     }
 }
