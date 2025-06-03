@@ -7,15 +7,24 @@ class DAY2{
         // System.out.println("Enter your age here");
         Scanner sc = new Scanner(System.in);
         int button = sc.nextInt();
-        if(button == 1){
-            System.out.println("Hello");
-        }else if(button == 2){
-            System.out.println("Namaste");
-        }else if (button == 3){
-            System.out.println("Bonjour");
-        }else{
-            System.out.println("Bhai kya bol raha hai");
+        switch(button){
+            case 1: System.out.println("hello");
+            break;
+            case 2: System.out.println("namaste");
+            break;
+            case 3: System.out.println("bonjour");
+            break;
+            default: System.out.println("Bhai kya bol raha hai");
         }
+        // if(button == 1){
+        //     System.out.println("Hello");
+        // }else if(button == 2){
+        //     System.out.println("Namaste");
+        // }else if (button == 3){
+        //     System.out.println("Bonjour");
+        // }else{
+        //     System.out.println("Bhai kya bol raha hai");
+        // }
         // int a = sc.nextInt();
         // int b = sc.nextInt();
         // int num = sc.nextInt();
