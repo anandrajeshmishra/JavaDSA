@@ -60,9 +60,37 @@ class DAY2{
         // for(int i = 0; i<100; i++){
         //     System.out.print("hello world");
         // }
-        int num = 11;
-        for(int i = 0; i<num; i++){
-            System.out.println(i);
+        // int num = 11;
+        // for(int i = 0; i<num; i++){
+        //     System.out.println(i);
+        // }
+        // int i = 0;
+        // while(i<11){
+        //     System.out.println(i);
+        //     i++;
+        // }
+        // do{
+        //     System.out.println(i);
+        //     i++;
+        // }while(i<11);
+        System.out.print("Enter the number: ");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int sum = 0;
+        // for(int i = 1; i<= n; i++){
+        //     sum = sum + i;
+        // }
+        // System.out.println(sum);
+        // int i = 1;
+        // while(i<=n){
+        //     sum += i;
+        //     i++;
+        // }
+        // System.out.println(sum);
+        //table
+
+        for(int i = 1; i<=10; i++){
+            System.out.println(n*i);
         }
     }
 }
