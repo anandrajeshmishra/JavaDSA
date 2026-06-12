@@ -11,13 +11,26 @@ class DAY4{
         //     System.out.println("Not Adult");
         // }
         // code to find out the number is even or odd
-        System.out.print("Enter the number to check odd or even: ");
-        int num = sc.nextInt();
-        if(num%2==0){
-            System.out.println("Even number");
+        // System.out.print("Enter the number to check odd or even: ");
+        // int num = sc.nextInt();
+        // if(num%2==0){
+        //     System.out.println("Even number");
+        // }else{
+        //     System.out.println("Odd number");
+        // }
+        // code to find the number is greater or equal
+        System.out.println("Enter the value of a: ");
+        int a = sc.nextInt();
+        System.out.println("Enter the value of b: ");
+        int b = sc.nextInt();
+        if(a==b){
+            System.out.println("equal");
         }else{
-            System.out.println("Odd number");
+            if(a>b){
+            System.out.println("a is greater");
+        }else{
+            System.out.println("a is lesser");
         }
-
+        }
     }
 }
