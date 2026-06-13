@@ -72,7 +72,7 @@ class DAY4{
         //     sum+=i;
         // }
         // System.out.println(sum);
-        // code to find the table of any number
+        // code to find the table of any number 
         for(int i = 1; i<=10;i++){
             System.out.println(n*i);
         }
